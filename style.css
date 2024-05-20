@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;400;600;700;800;900&family=Lato:ital,wght@1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "albert sans", sans-serif;
+}
+
+body {
+  width: 100%;
+  color: #efcf86;
+  background: #10444a;
+}
+
+form {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+form h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+#pokemon-input {
+  height: 40px;
+  width: 250px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+button {
+  color: #10444a;
+  background-color: #f8b7ba;
+  font-size: 13px;
+  font-weight: 400;
+  height: 40px;
+  width: 160px;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  height: 42px;
+  width: 163px;
+}
+
+#container {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+}
+
+.pokemon-card {
+  background-color: #efcf86;
+  color: #10444a;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+.pokemon-card img {
+  width: 150px;
+  height: 150px;
+}
